@@ -12,6 +12,7 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		A0F4E4B4100D674E0018E134 /* iRemedieAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F4E4B2100D674E0018E134 /* iRemedieAppDelegate.m */; };
 		A0F4E4B5100D674E0018E134 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F4E4B3100D674E0018E134 /* main.m */; };
+		A0F4E4CA100D6BEC0018E134 /* BonjourBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F4E4C9100D6BEC0018E134 /* BonjourBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		A0F4E4B2100D674E0018E134 /* iRemedieAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iRemedieAppDelegate.m; path = src/iRemedieAppDelegate.m; sourceTree = "<group>"; };
 		A0F4E4B3100D674E0018E134 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
 		A0F4E4B6100D675D0018E134 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F4E4C8100D6BEC0018E134 /* BonjourBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BonjourBrowser.h; path = src/BonjourBrowser.h; sourceTree = "<group>"; };
+		A0F4E4C9100D6BEC0018E134 /* BonjourBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BonjourBrowser.m; path = src/BonjourBrowser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 		A0F4E4AD100D66FB0018E134 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				A0F4E4C8100D6BEC0018E134 /* BonjourBrowser.h */,
+				A0F4E4C9100D6BEC0018E134 /* BonjourBrowser.m */,
 				A0F4E4B1100D674E0018E134 /* iRemedieAppDelegate.h */,
 				A0F4E4B2100D674E0018E134 /* iRemedieAppDelegate.m */,
 				A0F4E4B3100D674E0018E134 /* main.m */,
@@ -140,6 +145,7 @@
 			files = (
 				A0F4E4B4100D674E0018E134 /* iRemedieAppDelegate.m in Sources */,
 				A0F4E4B5100D674E0018E134 /* main.m in Sources */,
+				A0F4E4CA100D6BEC0018E134 /* BonjourBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
