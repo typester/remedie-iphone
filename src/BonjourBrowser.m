@@ -95,7 +95,7 @@
                                         reuseIdentifier:@"myCell"] autorelease];
     }
 
-    NSNetService *ns = [remedies objectAtIndex:0];
+    NSNetService *ns = [remedies objectAtIndex:i.row];
     cell.text = ns.name;
 
     return cell;
